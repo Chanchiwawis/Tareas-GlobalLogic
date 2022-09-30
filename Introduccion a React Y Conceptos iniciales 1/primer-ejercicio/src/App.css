@@ -1,0 +1,14 @@
+.Lista, .color, .header, .footer, .clima, .eventos {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  min-height: 65px;
+}
+
+header {
+  border: transparent !important;
+}

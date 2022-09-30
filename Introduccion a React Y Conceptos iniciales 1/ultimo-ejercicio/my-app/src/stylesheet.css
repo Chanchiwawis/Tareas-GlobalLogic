@@ -1,0 +1,76 @@
+/* general styles */
+* {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  display: flex;
+  height: 10vw;
+}
+
+.header > .logo {
+  background-color: red;
+  width: 10vw;
+}
+
+.header > .heading {
+  background-color: #008001;
+  width: 90vw;
+}
+
+/* Menu */
+.menu {
+  background-color: yellow;
+  width: 100vw;
+  height: 7.5vw;
+}
+
+/* Sections */
+.section {
+  height: 35vw;
+  width: 33.33%;
+  display: inline-flex;
+}
+
+.first {
+  background-color: #0000fe;
+}
+
+.second {
+  background-color: #666666;
+}
+
+.third {
+  background-color: #cb99cc;
+}
+
+/* Content and Side bar */
+.content {
+  display: flex;
+  height: 80vw;
+}
+
+.contents {
+  background-color: #00ff99;
+  width: 85vw;
+}
+
+.sideBar {
+  background-color: #7f8000;
+  width: 15vw;
+}
+
+/* Footer */
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #3398cc;
+}
